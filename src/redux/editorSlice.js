@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { convetToHtml } from "../assets/convertToHtml";
+// import { convetToHtml } from "../assets/convertToHtml";
+import { marked } from "marked";
 
 export const editorSlice = createSlice({
     name: 'editor',
@@ -10,7 +11,7 @@ export const editorSlice = createSlice({
     reducers: {
         addContent: (state, action) => {
             state.content = action.payload;
-            state.htmlContent = convetToHtml(action.payload);
+            state.htmlContent = marked.parse(action.payload);
         }
     }
 });

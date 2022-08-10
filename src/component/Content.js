@@ -7,8 +7,8 @@ function Content() {
   return (
     <Container>
         <Row>
-            <Col><Editor /></Col>
-            <Col><Preview /></Col>
+            <Col className='col-12 col-lg-6'><Editor /></Col>
+            <Col className='col-12 col-lg-6'><Preview /></Col>
         </Row>
     </Container>
   )

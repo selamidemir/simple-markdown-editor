@@ -26,6 +26,8 @@ UI was created Html and Css.
 
 ## Ekran Görüntüleri
 
+![Ekran Görüntüsü](markdown-editor-ekran-goruntusu.png)
+
 ![Uygulama Ekran Görüntüsü](simple-markdown-editor.gif)
 
   

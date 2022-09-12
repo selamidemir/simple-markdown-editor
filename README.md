@@ -1,21 +1,42 @@
-# Markdown Editor
 
-Patika Redux dersi proje ödevi olarak geliştirildi.
+# Simple Markdown Editor with Preview
 
-Bu projede, bir markdown editör ve bir de ön izleme alanı bulunmaktadır.
+A simple editor developed with React JS and Redux for writing with Markdown. You can quickly write the texts you want using markdown marks.
 
-## Kullanılan Teknoloji ve Modüller
 
-Bu proje React JS ile hazırlandı. React ile birlikte
+## Demo
 
-1 - React Redux ve Redux Toolkit.
+You can use the simple markdown editor from demo page.
 
-2 - [React Bootstrap](https://react-bootstrap.github.io/).
+[Demo](https://markdowned.netlify.app/ "Simple Markdow Editor")
+[https://markdowned.netlify.app/](https://markdowned.netlify.app/)
 
-3 - [React-From-Dom](https://www.npmjs.com/package/react-from-dom).
+  
+## Used Technologies
 
-4 - [Marked JS](https://marked.js.org/).
+- React, 
+- Redux and Redux Tool Kit, 
+- Marked JS,
+- Html,
+- Css
 
-modülleri kullanılmıştır. Marked.js yazılan markdown kodları **html string**e dönüştürüyor. React-From-Dom modülü ise, html string olarak dönüştürülen içeriği **html** olarak gösterilmesini sağlıyor.
+It was developed with React. Redux takes over the logic of the application.
+UI was created Html and Css.
 
-Katkı ve önerilerinizi bekliyorum.
+
+## Ekran Görüntüleri
+
+![Uygulama Ekran Görüntüsü](simple-markdown-editor.gif)
+
+  
+## Rozetler
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+  
+## Lisans
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+  
